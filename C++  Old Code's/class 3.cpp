@@ -1,0 +1,35 @@
+#include<iostream>
+#include<conio.h>
+using namespace std;
+ class student
+ {
+ 	public :
+ 	 
+	 int id;
+	 double gpa;
+	 void disply()
+	 {
+	 	cout <<id <<" " <<gpa <<endl;  
+	 }  
+ 	void setvalu(int x,double y)
+ 	{
+ 		id = x;
+ 		gpa =y;
+	}
+ 	
+ };
+
+int main ()
+ {
+ 	
+ 	student seasun,abul;
+ 	
+	seasun.setvalu(101,3.75);
+ 	seasun.disply();
+ 	abul.setvalu(102,3.44);
+ 	abul.disply();
+ 	
+ 	
+ 	
+ 	getch();
+ }
